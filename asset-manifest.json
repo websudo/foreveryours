@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/foreveryours/static/css/main.8d13c267.chunk.css",
+    "main.css": "/foreveryours/static/css/main.92c8691a.chunk.css",
     "main.js": "/foreveryours/static/js/main.34e67fd3.chunk.js",
     "main.js.map": "/foreveryours/static/js/main.34e67fd3.chunk.js.map",
     "runtime-main.js": "/foreveryours/static/js/runtime-main.4e0fc929.js",
@@ -8,16 +8,16 @@
     "static/js/2.0a1ff533.chunk.js": "/foreveryours/static/js/2.0a1ff533.chunk.js",
     "static/js/2.0a1ff533.chunk.js.map": "/foreveryours/static/js/2.0a1ff533.chunk.js.map",
     "index.html": "/foreveryours/index.html",
-    "precache-manifest.aecaf979d8c574e1b2df6e62e342fcfd.js": "/foreveryours/precache-manifest.aecaf979d8c574e1b2df6e62e342fcfd.js",
+    "precache-manifest.d3f54b08cbb51f2fce9e627487fd915a.js": "/foreveryours/precache-manifest.d3f54b08cbb51f2fce9e627487fd915a.js",
     "service-worker.js": "/foreveryours/service-worker.js",
-    "static/css/main.8d13c267.chunk.css.map": "/foreveryours/static/css/main.8d13c267.chunk.css.map",
+    "static/css/main.92c8691a.chunk.css.map": "/foreveryours/static/css/main.92c8691a.chunk.css.map",
     "static/js/2.0a1ff533.chunk.js.LICENSE.txt": "/foreveryours/static/js/2.0a1ff533.chunk.js.LICENSE.txt",
     "static/media/logo.svg": "/foreveryours/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.4e0fc929.js",
     "static/js/2.0a1ff533.chunk.js",
-    "static/css/main.8d13c267.chunk.css",
+    "static/css/main.92c8691a.chunk.css",
     "static/js/main.34e67fd3.chunk.js"
   ]
 }

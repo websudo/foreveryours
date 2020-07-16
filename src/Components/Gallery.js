@@ -21,11 +21,11 @@ export class Gallery extends Component {
             console.log(event.target.className)
             if(event.target.className == 'image-class'){
                 event.target.classList.add('popdisplay');
-                console.log(event.target);
+               
             }
             else if(event.target.parentElement.className == 'image-class'){
                 event.target.parentElement.classList.add('popdisplay');
-                console.log(event.target.parentElement);
+                
             }
         });
     }

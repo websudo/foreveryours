@@ -51,6 +51,7 @@ nav .brandtitle{
     text-align: center;
     margin-left: 15px;
     padding-left: 10px;
+    z-index: 100;
 }
 
 nav .brandstyle{
@@ -67,6 +68,7 @@ nav .brandstyle{
 
 nav .brandfirst{
     font-size: 40px !important;
+    z-index: 100;
 }
 
 

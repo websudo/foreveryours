@@ -28,17 +28,6 @@ nav a {
 }
 
 
-/* nav .navbar-brand{
-    font-size: 30px !important;
-    position: relative;
-    background-image: linear-gradient(to right,rgb(252, 159, 175),white) ;
-    width: 210px;
-    height: 60px;
-    font-family: 'Petit Formal Script', cursive !important;
-    font-weight: bolder !important;
-    
-} */
-
 nav .brandtitle{
     font-size: 30px !important;
     position: relative;
@@ -73,7 +62,6 @@ nav .brandfirst{
 
 
 .navbar-nav a:hover{
-    /* background-image: linear-gradient(white 5%,rgb(252, 159, 175) 80%,white 5%); */
     background-image: linear-gradient(to bottom,rgb(252, 159, 175) 80%,white);
     font-family: 'Sawarabi Gothic' sans-serif;
 }

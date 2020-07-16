@@ -1,15 +1,25 @@
+#gallery{
+    background-image: url(https://images.unsplash.com/photo-1532712938310-34cb3982ef74?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
 .container-fluid{
     /* background-image: linear-gradient(to top right,rgb(252, 159, 175),white); */
     padding-top: 50px;
     padding-bottom: 50px;
-    font-family: 'IBM Plex Sans', sans-serif;
-    
-    color: rgb(252, 159, 175);
+    font-family: 'Petit Formal Script', cursive ;
+    color: white;
 }
 
+.container-fluid h1{
+    font-size: 70px;
+    padding-bottom: 50px;
+}
 
 .galimg img{
-    border: 5px rgb(252, 159, 175) solid;
+    border: 5px white solid;
     width: 400px;
     
 }

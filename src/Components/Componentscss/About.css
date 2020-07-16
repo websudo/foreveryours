@@ -5,7 +5,7 @@
     padding-bottom: 50px;
     font-family: 'Sawarabi Gothic' , sans-serif;
     position: relative;
-    
+    border-bottom: white 3px solid;
 }
 
 .abouttext h1{

@@ -23,7 +23,7 @@ export class Footer extends Component {
                 </div>
                 </div><br></br>
                 <div className="row justify-content-center">
-                <img src="https://image.flaticon.com/icons/svg/1294/1294391.svg" alt="..." width="20px" height="20px" />
+                <img id="license" src="https://image.flaticon.com/icons/svg/1294/1294391.svg" alt="..." width="20px" height="20px" />
                 <p>2020 Foreveryours LLC All rights reserved.</p>
                 </div>
                 </div>

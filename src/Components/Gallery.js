@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import "./Componentscss/Gallery.css";
+
+
 export class Gallery extends Component {
 
 
@@ -18,7 +20,7 @@ export class Gallery extends Component {
 
     componentDidMount(){
         window.addEventListener("click", function(event) {
-            console.log(event.target.className)
+            
             if(event.target.className == 'image-class'){
                 event.target.classList.add('popdisplay');
                

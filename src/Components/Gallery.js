@@ -8,6 +8,7 @@ export class Gallery extends Component {
 
     handleClick = (e) => {
 
+        console.log("gallery");
         let newdiv = document.createElement("div");
         let newimg = document.createElement('img');
         let webbody = document.body;

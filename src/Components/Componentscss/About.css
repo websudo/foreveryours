@@ -1,0 +1,75 @@
+.aboutsec{
+    /* background-color: rgb(252, 159, 175); */
+    background-image: linear-gradient(to bottom right,rgb(252, 159, 175),white);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: 'Sawarabi Gothic' , sans-serif;
+    position: relative;
+    
+}
+
+.abouttext h1{
+    padding-bottom: 10px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: white;
+}
+
+.abouttext p{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-style: italic;
+    color: white;
+    font-size: 15px;
+}
+
+.aboutimg img{
+    border: white 4px solid;
+    border-bottom-left-radius: 10%;
+    border-top-right-radius: 10%;
+    
+}
+
+.aboutimg{
+    
+    display: inline-block;
+    padding-left: 20px;
+    
+    padding-right: 20px;
+}
+
+.abouttext{
+    display: inline-block;
+    padding-top: 50px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+
+
+@media (max-width : 600px){
+    .aboutimg img{
+        width: 300px;
+        height: 100%;
+    }
+}
+
+@media (max-width : 330px){
+    .aboutimg img{
+        width: 250px;
+        height: 100%;
+    }
+}
+
+
+@media (max-width : 440px){
+    .abouttext{
+        font-size: 10px;
+        padding-top: 0px;
+    }
+}
+
+
+@media (min-width : 600px){
+    .abouttext{
+        width: 600px;
+    }
+}

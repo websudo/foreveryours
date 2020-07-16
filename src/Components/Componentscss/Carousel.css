@@ -1,0 +1,43 @@
+.carousel .carousel-item {
+    height: 800px;
+  }
+  
+.carousel-item img {
+      position: absolute;
+      object-fit: cover;
+      top: -50px;
+      left: 0px;
+      min-height: 800px;
+  }
+
+
+.carousel-caption{
+  padding-bottom: 210px;
+  font-size: 70px !important;
+}
+
+.carousel-caption p{
+  border-top: white 2px solid;
+  border-bottom: white 2px solid;
+  font-family: 'Roboto Slab', serif;
+  
+}
+
+@media (max-width : 1280px){
+  .carousel-item img {
+    position: absolute;
+    object-fit: cover;
+    top: 0px;
+    left: 0px;
+    min-height: 800px;
+}
+}
+
+
+
+
+@media (max-width : 1200px){
+  .carousel-caption{
+    font-size: 55px !important;
+  }
+}

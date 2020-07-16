@@ -1,0 +1,112 @@
+
+.navbar{
+    background-color: rgb(252, 159, 175,0.8) !important;
+    top: 20px;
+}
+
+
+.navbar-collapse{
+    opacity: 100% !important;
+}
+
+.navbar-collapse .navbar-nav .nav-item{
+    opacity: 100% !important;
+}
+
+nav a {
+    color:black !important;
+    font-size: 20px !important;
+    opacity: 100%;
+}
+
+.sticky{
+    background-color: rgb(252, 159, 175) !important;
+    position: fixed !important;
+    top: 0 !important;
+    width: 100% !important;
+    opacity: 100%;
+}
+
+
+/* nav .navbar-brand{
+    font-size: 30px !important;
+    position: relative;
+    background-image: linear-gradient(to right,rgb(252, 159, 175),white) ;
+    width: 210px;
+    height: 60px;
+    font-family: 'Petit Formal Script', cursive !important;
+    font-weight: bolder !important;
+    
+} */
+
+nav .brandtitle{
+    font-size: 30px !important;
+    position: relative;
+    background-image: linear-gradient(to right,rgb(252, 159, 175,0.0) 40%,white 90%) !important;
+    width: 210px;
+    height: 60px;
+    font-family: 'Petit Formal Script', cursive !important;
+    font-weight: bolder !important;
+    z-index: 1;
+    text-align: center;
+    margin-left: 15px;
+    padding-left: 10px;
+}
+
+nav .brandstyle{
+    width: 42px;
+    height: 42px;
+    background-image: white;
+    position: absolute;
+    left: 220px;
+    top:22px;
+    background-color: white;
+    transform: rotate(45deg);
+    z-index: 0 !important;
+}
+
+nav .brandfirst{
+    font-size: 40px !important;
+}
+
+
+.navbar-nav a:hover{
+    /* background-image: linear-gradient(white 5%,rgb(252, 159, 175) 80%,white 5%); */
+    background-image: linear-gradient(to bottom,rgb(252, 159, 175) 80%,white);
+    font-family: 'Sawarabi Gothic' sans-serif;
+}
+
+
+@media (max-width : 335px){
+    nav .brandtitle{
+        font-size: 20px !important;
+        position: relative;
+        background-image: linear-gradient(to right,rgb(252, 159, 175),white) ;
+        width: 150px;
+        height: 50px;
+        font-family: 'Petit Formal Script', cursive !important;
+        font-weight: bolder !important;
+        z-index: 1;
+        text-align: center;
+        margin-left: 15px;
+        padding-left: 5px;
+    }
+    
+    nav .brandstyle{
+        width: 35px;
+        height: 35px;
+        background-image: white;
+        position: absolute;
+        left: 164px;
+        top:21px;
+        background-color: white;
+        transform: rotate(45deg);
+        z-index: 0 !important;
+    }
+    
+    nav .brandfirst{
+        font-size: 30px !important;
+    }
+    
+}
+

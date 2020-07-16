@@ -1,0 +1,76 @@
+.container-fluid{
+    /* background-image: linear-gradient(to top right,rgb(252, 159, 175),white); */
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    
+    color: rgb(252, 159, 175);
+}
+
+
+.galimg img{
+    border: 5px rgb(252, 159, 175) solid;
+    width: 400px;
+    
+}
+
+.galimg img:hover{
+    transform: scale3d(1.1);
+    animation: beat 0.75s infinite alternate;
+}
+
+@keyframes beat{
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.1);
+    }
+}
+.galimg{
+    display: inline-block;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+
+.row {
+    padding-top: 10px;
+    padding-left: 10px;
+}
+h1{
+    padding-bottom: 20px;
+}
+
+
+.image-class{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.85);
+    z-index: 100;
+    top: 0;
+    left: 0;
+    position: fixed;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.image-class img{
+    max-width: 90vw;
+    max-height: 90vh;
+    padding-top: 40px;
+    opacity: 100% !important;
+}
+
+.popdisplay{
+    display: none;
+}
+@media (max-width : 440px){
+    .galimg img{
+        width: 250px;
+    }
+    
+}

@@ -6,11 +6,11 @@
 
 
 .navbar-collapse{
-    opacity: 100% !important;
+    opacity: 1 !important;
 }
 
 .navbar-collapse .navbar-nav .nav-item{
-    opacity: 100% !important;
+    opacity: 1 !important;
 }
 
 nav a {

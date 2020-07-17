@@ -16,6 +16,7 @@
     padding-right: 10px;
 }
 
+
 .column3{
     color: white !important;
     font-family: 'Sawarabi Gothic' , sans-serif;
@@ -65,5 +66,22 @@
     .styleone{
         width: 100%;
         height: 140px;
+    }
+}
+
+@media (max-width: 770px){
+    .column1,.column2,.column3{
+        margin-right: 10px;
+    }
+
+    .column2{
+        margin-right: 5px;
+        padding-left: 0px ;
+        margin-left: 0px;
+    }
+
+    .column3{
+        margin-left: 20px;
+        padding-right: 0px;
     }
 }

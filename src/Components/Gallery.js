@@ -22,11 +22,11 @@ export class Gallery extends Component {
     componentDidMount(){
         window.addEventListener("click", function(event) {
             
-            if(event.target.className == 'image-class'){
+            if(event.target.className === 'image-class'){
                 event.target.classList.add('popdisplay');
                
             }
-            else if(event.target.parentElement.className == 'image-class'){
+            else if(event.target.parentElement.className === 'image-class'){
                 event.target.parentElement.classList.add('popdisplay');
                 
             }

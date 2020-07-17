@@ -29,7 +29,7 @@ class Header extends Component{
         return (
                 <div id="navigationbar">
                 <nav className="navbar navbar-expand-xl navbar-dark bg-dark fixed-top" >
-                <a className="navbar-brand" href="#">
+                <a className="navbar-brand" href="#navigationbar">
                 <div className="brandtitle"><span className="brandfirst">F</span>oreveryours</div>
                 <div className="brandstyle"></div>
                 </a>
@@ -40,7 +40,7 @@ class Header extends Component{
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav ml-auto">
                         <li className="nav-item active">
-                            <a className="nav-link" href="#">Home <span className="sr-only">(current)</span></a>
+                            <a className="nav-link" href="#navigationbar">Home <span className="sr-only">(current)</span></a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="#about">About</a>

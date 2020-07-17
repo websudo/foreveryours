@@ -20,6 +20,7 @@
   border-top: white 2px solid;
   border-bottom: white 2px solid;
   font-family: 'Roboto Slab', serif;
+  -webkit-text-stroke: 1px black;
   
 }
 

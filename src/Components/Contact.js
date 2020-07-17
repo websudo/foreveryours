@@ -1,10 +1,14 @@
-import React, { Component } from 'react'
+import React, { useEffect} from 'react'
 import "./Componentscss/Contact.css"
+import Aos from "aos";
+import "aos/dist/aos.css";
 
-export class Contact extends Component {
+function Contact(){
 
-   
-    render() {
+    useEffect(() => {
+        Aos.init({duration:2000});
+    }, [])
+    
         return (
             <div id="contact">
 
@@ -13,15 +17,15 @@ export class Contact extends Component {
                     <div className="row justify-content-center">
                         <div className="col-3 column1">
                             <div className="row justify-content-center value"><img src="https://image.flaticon.com/icons/svg/684/684809.svg" width="40px" height="40px" alt=""></img></div>
-                            <div className="row justify-content-center key"> Mukherjee Nagar, Delhi</div>
+                            <div className="row justify-content-center key" data-aos = "fade-in"> Mukherjee Nagar, Delhi</div>
                         </div>
                         <div className="col-3 column2">
                             <div className="row justify-content-center value"><img src="https://image.flaticon.com/icons/svg/3014/3014499.svg" width="40px" height="40px" alt=""></img></div>
-                            <div className="row justify-content-center key">+91 1234567890</div>
+                            <div className="row justify-content-center key" data-aos = "fade-in">+91 1234567890</div>
                         </div>
                         <div className="col-3 column3">
                             <div className="row justify-content-center value"><img src="https://image.flaticon.com/icons/svg/561/561127.svg" width="40px" height="40px" alt=""></img></div>
-                            <div className="row justify-content-center key">foreveryours@mail.com</div>
+                            <div className="row justify-content-center key" data-aos = "fade-in">foreveryours@mail.com</div>
                         </div>
                     </div>
                 </div>
@@ -30,7 +34,7 @@ export class Contact extends Component {
                 </div>
             </div>
         )
-    }
+    
 }
 
 export default Contact

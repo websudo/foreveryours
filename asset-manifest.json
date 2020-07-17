@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/foreveryours/static/css/main.84f9b626.chunk.css",
+    "main.css": "/foreveryours/static/css/main.de8805ea.chunk.css",
     "main.js": "/foreveryours/static/js/main.23009737.chunk.js",
     "main.js.map": "/foreveryours/static/js/main.23009737.chunk.js.map",
     "runtime-main.js": "/foreveryours/static/js/runtime-main.4e0fc929.js",
@@ -8,15 +8,15 @@
     "static/js/2.0a1ff533.chunk.js": "/foreveryours/static/js/2.0a1ff533.chunk.js",
     "static/js/2.0a1ff533.chunk.js.map": "/foreveryours/static/js/2.0a1ff533.chunk.js.map",
     "index.html": "/foreveryours/index.html",
-    "precache-manifest.f8c6be0b87ecd3a797bacc994d315b60.js": "/foreveryours/precache-manifest.f8c6be0b87ecd3a797bacc994d315b60.js",
+    "precache-manifest.b11f50aad8b0e95258a7182c9e83a4b2.js": "/foreveryours/precache-manifest.b11f50aad8b0e95258a7182c9e83a4b2.js",
     "service-worker.js": "/foreveryours/service-worker.js",
-    "static/css/main.84f9b626.chunk.css.map": "/foreveryours/static/css/main.84f9b626.chunk.css.map",
+    "static/css/main.de8805ea.chunk.css.map": "/foreveryours/static/css/main.de8805ea.chunk.css.map",
     "static/js/2.0a1ff533.chunk.js.LICENSE.txt": "/foreveryours/static/js/2.0a1ff533.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.4e0fc929.js",
     "static/js/2.0a1ff533.chunk.js",
-    "static/css/main.84f9b626.chunk.css",
+    "static/css/main.de8805ea.chunk.css",
     "static/js/main.23009737.chunk.js"
   ]
 }

@@ -10,16 +10,16 @@ export class Footer extends Component {
                 <div className="container">
                 <div className="row">
                 <div className="col-3">
-                <a href="#" target="_blank"><img src="https://image.flaticon.com/icons/svg/1384/1384021.svg" alt="..." width="40" height="40"/></a>
+                <a href="#navigationbar" target="_blank"><img src="https://image.flaticon.com/icons/svg/1384/1384021.svg" alt="..." width="40" height="40"/></a>
                 </div>
                 <div className="col-3">
-                <a href="#" target="_blank" ><img src="https://image.flaticon.com/icons/svg/1384/1384015.svg" alt="..." width="40" height="40"/></a>
+                <a href="#navigationbar" target="_blank" ><img src="https://image.flaticon.com/icons/svg/1384/1384015.svg" alt="..." width="40" height="40"/></a>
                 </div>
                 <div className="col-3">
-                <a href="#" target="_blank" ><img src="https://image.flaticon.com/icons/svg/1384/1384017.svg" alt="...." width="40" height="40"/></a>
+                <a href="#navigationbar" target="_blank" ><img src="https://image.flaticon.com/icons/svg/1384/1384017.svg" alt="...." width="40" height="40"/></a>
                 </div>
                 <div className="col-3">
-                <a href="#"><img src="https://image.flaticon.com/icons/svg/49/49440.svg"  alt="..." width="40" height="40"/></a> 
+                <a href="#navigationbar"><img src="https://image.flaticon.com/icons/svg/49/49440.svg"  alt="..." width="40" height="40"/></a> 
                 </div>
                 </div><br></br>
                 <div className="row justify-content-center">

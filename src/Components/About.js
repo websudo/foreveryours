@@ -14,7 +14,7 @@ export class About extends Component {
                             Fusce non lorem vitae dolor vulputate fringilla ut ac lacus. Ut et nisi tincidunt, egestas libero eu, auctor urna. Integer mollis gravida odio, at commodo velit commodo ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum a dolor et feugiat.  </p>
                         </div>
                         <div className=" wow aboutimg animate__animated animate__fadeInRight">
-                            <img src="https://images.unsplash.com/photo-1503525642560-ecca5e2e49e9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80" width="400px" height="100%"></img>
+                            <img src="https://images.unsplash.com/photo-1503525642560-ecca5e2e49e9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80" width="400px" height="100%" alt=""></img>
                         </div>
                         
             </div>

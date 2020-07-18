@@ -38,7 +38,3 @@ export default Footer
 
 
 
-// https://image.flaticon.com/icons/svg/1384/1384053.svg
-// https://image.flaticon.com/icons/svg/1384/1384063.svg
-// https://image.flaticon.com/icons/svg/1384/1384065.svg
-// https://image.flaticon.com/icons/svg/733/733566.svg
